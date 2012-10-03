@@ -1,0 +1,30 @@
+<h2>Projetos</h2>
+
+<table class="table">
+  <thead>
+  <tr>
+    <th>Nome</th>
+    <th>Responsavel</th>
+    <th>Data de Entrega</th>	  
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+<% @projetos.each do |projeto| %>
+  <tr>
+	<td><%=projeto.nome%></td>
+	<td><%=projeto.responsavel%></td>
+	<td><%=projeto.data_entrega%></td>
+    <td><%= link_to 'Altera', edit_projeto_path(projeto) %></td>
+    <td><%= link_to 'Remove', projeto,
+		 	confirm: 'Are you sure?' %>
+	</td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<%= link_to('Novo Projeto', new_projeto_path) %>
+

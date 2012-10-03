@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo - Innvent Bootcamp</title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= yield :js %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+  	<%= render partial: "shared/menu" %>
+
+    <div class="container">
+      <% if flash[:notice] %>
+        <p style="color:green;"><%= flash[:notice]%></p>
+      <% end %>
+      <% if flash[:error] %>
+        <p style="color:red;"><%= flash[:error]%></p>
+      <% end %>
+
+	    <%= yield %>
+
+      <footer>
+        <hr>
+        <p>© <a href="http://www.innvent.com.br/" target="_blank">Innvent</a> <%= DateTime.now.year %></p>
+      </footer>
+    </div>    
+  </body>
+</html>
