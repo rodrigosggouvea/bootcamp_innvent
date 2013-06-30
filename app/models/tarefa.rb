@@ -3,7 +3,16 @@ class Tarefa < ActiveRecord::Base
   
   validates_presence_of :descricao, {:message => "Deve ser preenchido"}
   validates_size_of :descricao, :minimum => 3
+  validates :projeto_id, :presence => {:message => "Deve ser preenchido"}
   
   scope :do_projeto, lambda{|projeto_id| Tarefa.where(:projeto_id => projeto_id)}
+
+  def concluir!
+    update_attribute(:data_finalizacao,Date.today)
+  end
+
+  def concluida?
+    !data_finalizacao.nil?
+  end
   
 end
