@@ -1,5 +1,6 @@
 class Projeto < ActiveRecord::Base
   has_many :tarefas
+  has_many :colaboradores, :through => :colaboradores_projetos
   validates_presence_of :nome, :message => 'deve ser preenchido'
   validates_size_of :nome, :minimum => 3
   validates_presence_of :data_inicio
