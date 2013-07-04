@@ -5,7 +5,7 @@
 ActiveSupport::Inflector.inflections do |inflect|
 #   inflect.plural /^(ox)$/i, '\1en'
 #   inflect.singular /^(ox)en/i, '\1'
-   inflect.irregular 'colaborador_projeto', 'colaboradores_projetos'
-   inflect.irregular 'colaborador', 'colaboradores'
+   inflect.irregular('colaborador_projeto', 'colaboradores_projetos')
+   inflect.irregular('colaborador', 'colaboradores')
 #   inflect.uncountable %w( fish sheep )
 end

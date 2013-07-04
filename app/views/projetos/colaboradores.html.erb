@@ -1,0 +1,35 @@
+<h2>Colaboradores do projeto <%= @projeto.nome %></h2>
+
+<% if @colaboradores.any? %>
+  <table>
+    <thead>
+      <tr>
+        <td>Matrícula</td>
+        <td>Nome</td>
+        <td>Cargo</td>
+      </tr>
+    </thead>
+    <tbody>
+    <% @colaboradores.each do |colaborador| %>
+      <tr>
+        <td><%= colaborador.matricula %></td>
+        <td><%= colaborador.nome %></td>
+        <td><%= colaborador.cargo %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>Não existe nenhum colaborador cadastrado nesse projeto.</p>
+<% end %>
+
+<span class="modal_button">Adicionar Coordenador</span>
+
+<div class="modal_form" title="Adicionar Coordenador">
+  <%= form_tag adicionar_coordenador_projeto_path(@projeto) do %>
+    <%= hidden_field_tag :projeto_id, @projeto.id %>
+    <%= label_tag :colaborador_id, "Colaborador:" %>
+    <%= select_tag :colaborador_id, Colaborador.all.collect{|c| [c.id, c.nome_completo]} %>
+    <%= submit_tag "Salvar" %>
+  <% end %>
+</div>

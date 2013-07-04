@@ -1,5 +1,6 @@
 class ColaboradorProjeto < ActiveRecord::Base
-  has_many :projetos, :through => :colaboradores_projetos
+  belongs_to :colaborador
+  belongs_to :projeto
 
   validates :colaborador_id, :presence => {:message => "Deve possuir o id de um colaborador"}
   validates :projeto_id, :presence => {:message => "Deve possuir o id de um projeto"}

@@ -1,5 +1,5 @@
-
-<%= form_for [:projeto,tarefa], :html => {:id =>'form_projeto_tarefa'} do |f| %>
+<div class="modal_form" title="Criar Tarefa">
+<%= form_for :tarefa, :html => {:id =>'form_projeto_tarefa'} do |f| %>
 <%=f.hidden_field :projeto_id %>
 	Responsavel:
   <p><%= f.text_field :responsavel %></p>
@@ -7,3 +7,4 @@
 	<p><%= f.text_area :descricao %></p>
 	<%= f.submit %>
 <% end %>
+</div>

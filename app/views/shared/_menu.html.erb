@@ -9,15 +9,21 @@
       <a class="brand" href="<%= root_path %>">TODO - Innvent Bootcamp</a>
       <div class="nav-collapse collapse">
         <ul class="nav">          
-          <li><a href="#">Colaboradores</a></li>
-          <li class="dropdown" id="menu">
-            <a href="#menu" class="dropdown-toggle" data-toggle="dropdown">Projetos <b class="caret"></b></a>
+          <li class="dropdown" id="menu_colaboradores">
+            <a href="#menu_colaboradores" class="dropdown-toggle" data-toggle="dropdown">Colaboradores <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "Gerenciar Coordenadores", colaboradores_path %></li>
+            </ul>
+          </li>
+          <li class="dropdown" id="menu_projetos">
+            <a href="#menu_projetos" class="dropdown-toggle" data-toggle="dropdown">Projetos <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="<%= projetos_path %>">Cadastro de Projetos</a></li>              
               <li class="divider"></li>
               <% Projeto.all.each do |projeto| %>
                 <li class="nav-header"><%= projeto.nome %></li>
                 <li><a href="<%= projeto_tarefas_path(projeto) %>">Tarefas</a></li>
+                <li><a href="<%= colaboradores_projeto_path(projeto) %>">Colaboradores do Projeto</a></li>
                 <li><a href="<%= edit_projeto_path(projeto) %>">Editar Projeto</a></li>
               <% end %>
             </ul>

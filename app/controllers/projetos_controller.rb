@@ -1,3 +1,4 @@
+#encoding: utf-8
 class ProjetosController < ApplicationController
   def index
     @projetos = Projeto.all
@@ -65,6 +66,22 @@ class ProjetosController < ApplicationController
     respond_to do |format|
       format.html { redirect_to projetos_url }
       format.json { head :ok }
+    end
+  end
+
+  def colaboradores
+    @projeto = Projeto.find(params[:id])
+    @colaboradores = @projeto.colaboradores
+  end
+
+  def adicionar_coordenador
+    @projeto = Projeto.find(params[:id])
+    params_cp = {:coordenador_id => params[:coordenador_id], :projeto_id => parms[:projeto_id]}
+    @colaborador_projeto = ColaboradorProjeto.new(params_cp)
+    if @colaborador_projeto.save?
+      redirect_to colaboradores_projeto_path(@projeto), :notice => "Colaborador cadastrado com sucesso"
+    else
+      redirect_to colaboradores_projeto_path(@projeto), :error => "Não foi possível cadastrar esse colaborador. Erros: #{@colaborador_projeto.errors}"
     end
   end
 end
