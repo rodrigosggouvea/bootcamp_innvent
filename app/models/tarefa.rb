@@ -1,7 +1,9 @@
 class Tarefa < ActiveRecord::Base
   belongs_to :projeto
-  
+  belongs_to :colaborador
+
   validates_presence_of :descricao, {:message => "Deve ser preenchido"}
+  validates_presence_of :colaborador_id, {:message => "Deve ser escolhido"}
   validates_size_of :descricao, :minimum => 3
   validates :projeto_id, :presence => {:message => "Deve ser preenchido"}
   

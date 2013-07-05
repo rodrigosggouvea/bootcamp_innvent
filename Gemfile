@@ -4,6 +4,7 @@ gem 'rails', '3.2.0'
 gem 'sqlite3', '~> 1.3.6'
 gem "twitter-bootstrap-rails", "2.1.3"
 gem 'jquery-rails'
+#gem 'rack', '1.4.1'
 # essa gem serve para fazer validações de datas
 gem 'validates_timeliness'
 

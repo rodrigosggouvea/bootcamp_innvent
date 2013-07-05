@@ -7,8 +7,8 @@ describe Tarefa do
     subject { Tarefa.new }
     it { should respond_to :descricao }
     it { should respond_to :descricao= }
-    it { should respond_to :responsavel }
-    it { should respond_to :responsavel= }
+    it { should respond_to :colaborador }
+    it { should respond_to :colaborador= }
     it { should respond_to :projeto }
     it { should respond_to :projeto= }
     it { should respond_to :data_finalizacao }
@@ -38,11 +38,12 @@ describe Tarefa do
   context "Persistencia" do
     subject{ Tarefa.new }
     before(:each) do
+      @colaborador = Colaborador.create(:nome => "Teste", :cargo => "Teste", :matricula => "teste")
       @projeto = Projeto.create(:nome => "Curso", :data_inicio => Date.today)
     end
     it "deve gravar uma nova tarefa no banco" do
       subject.descricao = "Tarefa 1"
-      subject.responsavel = "Joao"
+      subject.colaborador = @colaborador
       subject.projeto = @projeto
       subject.id.should be_nil
       subject.created_at.should be_nil
@@ -52,14 +53,14 @@ describe Tarefa do
     end
     
     it "deve ser possivel criar um novo registro no banco passando os parametros via hash" do
-      nova_tarefa = Tarefa.new :descricao => 'Teste', :responsavel => 'Mario', :projeto => @projeto
+      nova_tarefa = Tarefa.new :descricao => 'Teste', :colaborador => @colaborador, :projeto => @projeto
       nova_tarefa.save.should be_true
       nova_tarefa.id.should_not be_nil
       nova_tarefa.descricao.should == "Teste"
     end
 
     it "deve ser possivel criar um novo registro no banco sem chamar o save" do
-      nova_tarefa = Tarefa.create :descricao => 'Teste', :responsavel => 'Mario', :projeto => @projeto
+      nova_tarefa = Tarefa.create :descricao => 'Teste', :colaborador => @colaborador, :projeto => @projeto
       nova_tarefa.id.should_not be_nil
       nova_tarefa.descricao.should == "Teste"
       nova_tarefa.descricao = "Novo"
@@ -68,7 +69,7 @@ describe Tarefa do
     end
 
     it "deve ser possível concluir uma tarefa" do
-      tarefa = Tarefa.new(:descricao => "Teste")
+      tarefa = Tarefa.create(:descricao => "Teste", :colaborador => @colaborador, :projeto => @projeto)
       tarefa.concluir!
       tarefa.concluida?.should be_true
       tarefa.data_finalizacao.should_not be_nil

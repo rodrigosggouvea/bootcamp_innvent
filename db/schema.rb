@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130702200432) do
+ActiveRecord::Schema.define(:version => 20130705170612) do
 
   create_table "colaboradores", :force => true do |t|
     t.string   "nome"
@@ -34,16 +34,16 @@ ActiveRecord::Schema.define(:version => 20130702200432) do
     t.string   "responsavel"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
-    t.datetime "data_inicio"
+    t.date     "data_inicio"
   end
 
   create_table "tarefas", :force => true do |t|
     t.text     "descricao"
     t.date     "data_finalizacao"
-    t.string   "responsavel"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
     t.integer  "projeto_id"
+    t.integer  "colaborador_id"
   end
 
 end
