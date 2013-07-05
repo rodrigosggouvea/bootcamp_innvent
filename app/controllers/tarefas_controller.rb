@@ -43,4 +43,10 @@ class TarefasController < ApplicationController
     redirect_to :action => :index
   end
 
+  def finalizar
+    Tarefa.find(params[:id]).concluir!
+    flash[:notice] = "Tarefa #{params[:id]} finalizada"
+    redirect_to :action => :index
+  end
+
 end

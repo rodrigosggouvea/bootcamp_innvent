@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="279ef9e6-378e-4952-839c-323ce1c98a5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" afterPath="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/colaboradores/index.html.erb" afterPath="$PROJECT_DIR$/app/views/colaboradores/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projetos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projetos_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tarefas/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/tarefas/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tarefas/_lista_tarefa.html.erb" afterPath="$PROJECT_DIR$/app/views/tarefas/_lista_tarefa.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tarefas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tarefas_controller.rb" />
     </list>
     <ignored path="bootcamp_innvent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +31,7 @@
     <file path="$PROJECT_DIR$/../sispos_aluno/app/models/aluno.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372797096227" ignored="false" />
     <file path="/aluno.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372797086860" ignored="false" />
     <file path="/webservice.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372872778622" ignored="false" />
-    <file path="/routes.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372949023242" ignored="false" />
+    <file path="/routes.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1373038809162" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/config/routes.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372873168918" ignored="false" />
     <file path="/colaborador_spec.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372873355254" ignored="false" />
     <file path="/database.yml" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372879925478" ignored="false" />
@@ -41,7 +39,7 @@
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/db/schema.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372873168918" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/Gemfile" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372873168918" ignored="false" />
     <file path="/index.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372952391384" ignored="false" />
-    <file path="/_form.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372949610448" ignored="false" />
+    <file path="/_form.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1373039067411" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_aluno/app/helpers/application_helper.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372882684213" ignored="false" />
     <file path="/application_helper.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372882011546" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_aluno/config/database.yml" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372879925478" ignored="false" />
@@ -56,6 +54,9 @@
     <file path="/_menu.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372950324173" ignored="false" />
     <file path="/projetos_controller.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372952821303" ignored="false" />
     <file path="/colaboradores.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372952959091" ignored="false" />
+    <file path="/_lista_tarefa.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1373039117104" ignored="false" />
+    <file path="/tarefas_controller.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1373039176578" ignored="false" />
+    <file path="/application.css" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1373038695743" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,71 @@
     <favorites_list name="bootcamp_innvent" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tarefas/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tarefas/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="42" selection-start="159" selection-end="159" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_lista_tarefa.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tarefas/_lista_tarefa.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="24" selection-start="223" selection-end="223" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="33" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tarefa.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/tarefa.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tarefas_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/tarefas_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="93" selection-start="290" selection-end="290" vertical-scroll-proportion="0.27896994">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -101,11 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/models/colaborador_spec.rb" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/views/colaboradores/_form.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/tarefas/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tarefas/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_menu.html.erb" />
         <option value="$PROJECT_DIR$/app/models/projeto.rb" />
@@ -117,6 +177,11 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/tarefas/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tarefas/_lista_tarefa.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/tarefas_controller.rb" />
       </list>
     </option>
   </component>
@@ -165,136 +230,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colaboradores" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp_innvent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -721,7 +660,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -805,37 +744,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/projetos/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="21" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.57081544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tarefas/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="418" selection-end="418" vertical-scroll-proportion="0.17751479" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/colaborador.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.06437768" />
@@ -856,20 +764,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="59" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.6" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tarefas/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="66" selection-start="258" selection-end="258" vertical-scroll-proportion="0.17777778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="173" selection-end="173" vertical-scroll-proportion="0.10729614">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/colaboradores/index.html.erb">
@@ -897,6 +791,55 @@
     <entry file="file://$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="75" selection-start="979" selection-end="979" vertical-scroll-proportion="0.7111111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="33" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tarefas/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tarefas/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="159" selection-end="159" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tarefa.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tarefas/_lista_tarefa.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="223" selection-end="223" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tarefas_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="93" selection-start="290" selection-end="290" vertical-scroll-proportion="0.27896994">
           <folding />
         </state>
       </provider>

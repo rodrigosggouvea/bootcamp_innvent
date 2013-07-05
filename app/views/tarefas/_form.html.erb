@@ -1,6 +1,6 @@
 <div class="modal_form" title="Criar Tarefa">
 <%= form_for :tarefa, :html => {:id =>'form_projeto_tarefa'} do |f| %>
-<%=f.hidden_field :projeto_id %>
+<%= f.hidden_field :projeto_id, :value => @projeto.id %>
 	Responsavel:
   <p><%= f.text_field :responsavel %></p>
 	Descricao:
