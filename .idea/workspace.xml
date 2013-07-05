@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="279ef9e6-378e-4952-839c-323ce1c98a5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tarefas/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/tarefas/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_menu.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/colaborador.rb" afterPath="$PROJECT_DIR$/app/models/colaborador.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/colaborador_projeto.rb" afterPath="$PROJECT_DIR$/app/models/colaborador_projeto.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tarefas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/tarefas/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" afterPath="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/colaboradores/index.html.erb" afterPath="$PROJECT_DIR$/app/views/colaboradores/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/projeto.rb" afterPath="$PROJECT_DIR$/app/models/projeto.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projetos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projetos_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bootcamp_innvent.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372944130716" ignored="false" />
+    <file path="/Dummy.txt" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1373036717753" ignored="false" />
     <file path="/Gemfile" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372564001005" ignored="false" />
     <file path="/projeto.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372950396636" ignored="false" />
     <file path="/tarefa.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372564618914" ignored="false" />
@@ -27,7 +21,7 @@
     <file path="/Rails bootcamp_innvent: development" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372568274935" ignored="false" />
     <file path="/colaborador_projeto.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372950824349" ignored="false" />
     <file path="/colaborador.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372950412689" ignored="false" />
-    <file path="/inflections.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372795379568" ignored="false" />
+    <file path="/inflections.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372951809554" ignored="false" />
     <file path="/20130702174515_create_colaborador_projetos.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372787268505" ignored="false" />
     <file path="/colaborador_projeto_spec.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372795943434" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/app/models/vinculo_externo.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372788526932" ignored="false" />
@@ -46,7 +40,7 @@
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/config/database.yml" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372872653219" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/db/schema.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372873168918" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/Gemfile" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372873168918" ignored="false" />
-    <file path="/index.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372949711934" ignored="false" />
+    <file path="/index.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372952391384" ignored="false" />
     <file path="/_form.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372949610448" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_aluno/app/helpers/application_helper.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372882684213" ignored="false" />
     <file path="/application_helper.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372882011546" ignored="false" />
@@ -57,11 +51,11 @@
     <file path="$PROJECT_DIR$/../sispos_aluno/config/routes.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372883323183" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_ref_curso_prof/app/views/polos/_form.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372883835243" ignored="false" />
     <file path="$PROJECT_DIR$/../sispos_aluno/app/views/layouts/application.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372884682626" ignored="false" />
-    <file path="/application.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372884682626" ignored="false" />
+    <file path="/application.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372952915676" ignored="false" />
     <file path="/en.yml" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372947179973" ignored="false" />
     <file path="/_menu.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372950324173" ignored="false" />
-    <file path="/projetos_controller.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372950355220" ignored="false" />
-    <file path="/colaboradores.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372949751379" ignored="false" />
+    <file path="/projetos_controller.rb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372952821303" ignored="false" />
+    <file path="/colaboradores.html.erb" changelist="279ef9e6-378e-4952-839c-323ce1c98a5b" time="1372952959091" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,89 +79,7 @@
     <favorites_list name="bootcamp_innvent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tarefas/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="66" selection-start="258" selection-end="258" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_menu.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="59" selection-start="1571" selection-end="1571" vertical-scroll-proportion="-16.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colaborador_projeto.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/colaborador_projeto.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="81" selection-start="279" selection-end="279" vertical-scroll-proportion="0.15532544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projetos_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/projetos_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="51" selection-start="1759" selection-end="1803" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projeto.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/projeto.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colaborador.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/colaborador.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inflections.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="74" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colaboradores.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="105" selection-start="969" selection-end="969" vertical-scroll-proportion="-20.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="69" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -189,22 +101,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/spec/models/colaborador_projeto_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/colaborador_spec.rb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/colaboradores/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/tarefas/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/tarefas/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_menu.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/projetos_controller.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/inflections.rb" />
         <option value="$PROJECT_DIR$/app/models/projeto.rb" />
         <option value="$PROJECT_DIR$/app/models/colaborador.rb" />
         <option value="$PROJECT_DIR$/app/models/colaborador_projeto.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/inflections.rb" />
+        <option value="$PROJECT_DIR$/app/views/colaboradores/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/projetos_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb" />
       </list>
     </option>
   </component>
@@ -388,14 +300,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="true" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="RSpec.Colaborador">
     <configuration default="false" name="ColaboradorProjeto Validações colaborador_id não pode ser nulo" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
@@ -773,15 +685,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: bootcamp_innvent" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: bootcamp_innvent" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.ColaboradorProjeto Validações colaborador_id não pode ser nulo" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.ColaboradorProjeto" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.colaborador_spec" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.Colaborador" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.ColaboradorProjeto Validações colaborador_id não pode ser nulo" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.ColaboradorProjeto" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.colaborador_spec" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Colaborador" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="7" class="java.lang.String" itemvalue="Rails.Production: bootcamp_innvent" />
+      <item index="8" class="java.lang.String" itemvalue="Rails.Development: bootcamp_innvent" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -809,7 +721,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -893,30 +805,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="372" selection-end="372" vertical-scroll-proportion="0.2360515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projetos/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="21" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.57081544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -928,57 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="105" selection-start="969" selection-end="969" vertical-scroll-proportion="-20.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="57" selection-start="240" selection-end="240" vertical-scroll-proportion="0.25751072">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tarefas/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="66" selection-start="258" selection-end="258" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="59" selection-start="1571" selection-end="1571" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="74" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/projetos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="51" selection-start="1759" selection-end="1803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -986,23 +831,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/projeto.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="62" selection-start="418" selection-end="418" vertical-scroll-proportion="0.17751479" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/colaborador.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+        <state line="3" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.06437768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/projeto.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="83" selection-end="83" vertical-scroll-proportion="0.042918455">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/colaborador_projeto.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="81" selection-start="279" selection-end="279" vertical-scroll-proportion="0.15532544">
+        <state line="7" column="81" selection-start="279" selection-end="279" vertical-scroll-proportion="0.1502146" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="59" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.6" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tarefas/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="66" selection-start="258" selection-end="258" vertical-scroll-proportion="0.17777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="69" selection-start="173" selection-end="173" vertical-scroll-proportion="0.10729614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/colaboradores/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="76" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.08583691" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="906" selection-end="906" vertical-scroll-proportion="0.82222223" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/projetos_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="2348" selection-end="2348" vertical-scroll-proportion="0.92846924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projetos/colaboradores.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="75" selection-start="979" selection-end="979" vertical-scroll-proportion="0.7111111">
           <folding />
         </state>
       </provider>

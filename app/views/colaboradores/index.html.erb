@@ -1,7 +1,10 @@
-<h1>Listing colaboradores</h1>
+<h1>Colaboradores</h1>
 
 <table>
   <tr>
+    <th>Matrícula</th>
+    <th>Nome</th>
+    <th>Cargo</th>
     <th></th>
     <th></th>
     <th></th>
@@ -9,13 +12,15 @@
 
 <% @colaboradores.each do |colaborador| %>
   <tr>
-    <td><%= link_to 'Show', colaborador %></td>
-    <td><%= link_to 'Edit', edit_colaborador_path(colaborador) %></td>
-    <td><%= link_to 'Destroy', colaborador, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= colaborador.matricula %></td>
+    <td><%= colaborador.nome %></td>
+    <td><%= colaborador.cargo %></td>
+    <td><%= link_to 'Editar', edit_colaborador_path(colaborador) %></td>
+    <td><%= link_to 'Deletar Colaborador', colaborador, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Colaborador', new_colaborador_path %>
+<%= link_to 'Cadastrar Colaborador', new_colaborador_path %>

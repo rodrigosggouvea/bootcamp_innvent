@@ -26,4 +26,14 @@
       </footer>
     </div>    
   </body>
+  <script type="text/javascript">
+    $(".modal_form").dialog({
+      autoOpen: false,
+      modal: true
+    });
+
+    $(".modal_button").click(function(){
+      $(".modal_form").dialog("open");
+    });
+  </script>
 </html>

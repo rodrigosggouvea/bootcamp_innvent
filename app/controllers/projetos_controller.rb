@@ -76,9 +76,9 @@ class ProjetosController < ApplicationController
 
   def adicionar_coordenador
     @projeto = Projeto.find(params[:id])
-    params_cp = {:coordenador_id => params[:coordenador_id], :projeto_id => parms[:projeto_id]}
+    params_cp = {:colaborador_id => params[:colaborador_id], :projeto_id => params[:projeto_id]}
     @colaborador_projeto = ColaboradorProjeto.new(params_cp)
-    if @colaborador_projeto.save?
+    if @colaborador_projeto.save
       redirect_to colaboradores_projeto_path(@projeto), :notice => "Colaborador cadastrado com sucesso"
     else
       redirect_to colaboradores_projeto_path(@projeto), :error => "Não foi possível cadastrar esse colaborador. Erros: #{@colaborador_projeto.errors}"
